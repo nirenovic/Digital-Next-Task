@@ -1,0 +1,32 @@
+button 
+{
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    &.cta 
+    {
+        border-radius: 4px;
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        color: $white;
+        padding: 0px 24px;
+        background-color: $orange;
+
+        &:hover
+        {
+            img 
+            {
+                left: 10px;
+            }
+        }
+
+        img 
+        {
+            position: relative;
+            left: 0px;
+            margin-left: 20px;
+            transition: all 0.1s ease;
+        }
+    }
+}

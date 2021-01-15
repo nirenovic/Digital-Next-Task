@@ -1,0 +1,27 @@
+// small tablet, smartphone landscape
+@mixin screen-sm {
+    @media (min-width: #{576px}) {
+        @content;
+    }
+}
+
+// tablet portrait
+@mixin screen-md {
+    @media (min-width: #{768px}) {
+        @content;
+    }
+}
+
+// tablets, laptops
+@mixin screen-lg {
+    @media (min-width: #{992px}) {
+        @content;
+    }
+}
+
+// large tablets, desktops
+@mixin screen-xl {
+    @media (min-width: #{1200px}) {
+        @content;
+    }
+}
