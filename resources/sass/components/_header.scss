@@ -18,8 +18,19 @@ header
     {
         display: grid;
         grid-template-columns: minmax(0, 1fr) repeat(2, auto);
+        // grid-template-columns: minmax(0, 0.8fr) repeat(2, auto);
         // max-width: 1200px;
         // margin: auto;
+
+        .logo 
+        {
+            width: 80%;
+
+            @include screen-sm 
+            {
+                width: 200px;
+            }
+        }
 
         a.phone
         {
@@ -43,14 +54,24 @@ header
 
             img 
             {
-                margin-right: 20px;
-                vertical-align: middle;
+                vertical-align: top;
+                width: 24px;
+
+                @include screen-md
+                {
+                    margin-right: 20px;
+                }
             }
 
             font-family: 'Jost', sans-serif;
             font-weight: 700;
             font-size: 28px;
             color: $white;
+        }
+
+        .hamburger img
+        {
+            width: 40px;
         }
     }
 }

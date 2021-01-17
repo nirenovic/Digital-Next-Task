@@ -9,12 +9,12 @@
         </form>
     </div>
     <ul class="rep">
-        <li><img src="img/google_ratings.png" alt="Google logo"></li>
+        <li><img src="img/google_ratings.png" alt="Google logo" class=" logo"></li>
         <li><img src="img/gradient_divider.png" alt=""></li>
-        <li><img src="img/logo_gilette.png" alt="Gilette logo"></li>
-        <li><img src="img/logo_mrcoffee.png" alt="Mr. Coffee logo"></li>
-        <li><img src="img/logo_siemens.png" alt="Siemens logo"></li>
-        <li><img src="img/logo_rowenta.png" alt="Rowenta logo"></li>
+        <li><img src="img/logo_gilette.png" alt="Gilette logo" class=" logo"></li>
+        <li><img src="img/logo_mrcoffee.png" alt="Mr. Coffee logo" class=" logo"></li>
+        <li><img src="img/logo_siemens.png" alt="Siemens logo" class=" logo"></li>
+        <li><img src="img/logo_rowenta.png" alt="Rowenta logo" class=" logo"></li>
     </ul>
     <img src="img/hero-clip.png" alt="" class="hero-clip">
 </div>
